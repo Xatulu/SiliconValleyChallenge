@@ -1,0 +1,217 @@
+# Site settings
+baseurl = "https://xatulu.github.io"
+languageCode = "en-us"
+title = "Patrick Schreck - Silicon Valley Challenge Application"
+theme = "hugo-highlights-theme"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engings feel free to add a few informations.
+  # This lines will be inserted as meta tags.
+  name = "Patrick Schreck"
+  description = "My Application for the WACKER Silicon Valley Challenge"
+
+  # For a static site it's not possible to provide a contact form. The contact form uses
+  # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
+  # Visitors can send up to a 1000 emails each month
+  #
+  # How to setup formspree
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email to yourself to confirm your account
+  # - click the confirmation link in the email from www.formspree.io
+  # - That's all. Enjoy mailing!
+  email = "patrick.schreck@wacker.com"
+
+  # If this param is set to true, every section gets an own background image (located at static/images)
+  # to change the image you could use the param picture on every section.
+  # If it's disabled you could change the background to overwrite the bg.jpg and overlay.png to set the background.
+  backgroundpersection = true
+
+  # hero Section
+  [params.hero]
+    type = "hero"
+    title = "Patrick Schreck"
+    description = "This is just a Silicon Valley Challenge Application."
+    buttontext = "begin"
+
+  # about section
+  [[params.block]]
+    id = "about"
+    type = "text"
+    title = "Who am I"
+    description = "I started at WACKER in 2010 as a student for mechanical engineering. During the 3 years with WACKER's student program, I worked for both the Procurement and Logistics department as well as central engineering. After getting my Bachelor of Engineering, I started working in the Procurement's eBusiness Team on different tasks - standard application support and project work as well as unconventional and upcoming topics like building and rolling out new tools. In 2016, I was taking on new challenges as Procurement Manager for IT Hardware and Infrastructure - up until July 2018. Since August, I have returned to my roots at Procurement's Service division in our new \"Procurement Systems Innovation\" group. I am currently working on trending topics like the selection of the next generation of procurement tools, but also acting as a catalyst for new technologies - for example, one of my other projects is examining RPA's usecases to further automate processes."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic01.jpg"
+
+  # about section
+  [[params.block]]
+    id = "about2"
+    type = "text"
+    title = "That's nice an all - but what is my motivation?"
+    description = "As a digital native at heart, I embrace the challenges of digitalization and strife to make sure, WACKER is able to benefit from all the skills I bring to the table. Be it as skills picked up during my Bachelor's degree, in my daily work or during past time activities. In order to succeed with your project at hand, you often times need the right tool for the job. Or have you ever drilled a hole into a wall with a hammer? If so - stop reading and send me a quick email. We can build a business on that. Anyhow. I don't see myself as a specialist in either field. I rather see myself as a trick of all trades kind of person. So why me? Well, understanding both the process at hand, the background of multiple stakeholders and being able to get everyone on board and contribute to the necessary work has proven to be essential to successfully work towards digitalised processes."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic01.jpg"
+
+  # skill section
+  [[params.block]]
+    id = "skills"
+    type = "list"
+    title = "So, what are those \"Skills\" I bring to the table?"
+    description = "Now, that's the right question."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+
+    [[params.block.item]]
+      icon = "fas fa-desktop"
+      title = "Computer Stuff."
+
+    [[params.block.item]]
+      icon = "fas fa-euro-sign"
+      title = "Procurement Stuff."
+
+    [[params.block.item]]
+      icon = "fab fa-slideshare"
+      title = "Presentation Stuff."
+
+    [[params.block.item]]
+      icon = "fas fa-fire-extinguisher"
+      title = "Crisis Management Stuff."
+
+# skill section
+  [[params.block]]
+    id = "skills2"
+    type = "list"
+    title = "But wait, there's more!"
+    description = "If you accept my application in the next 12 hours, I also will throw in the following:"
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+
+    [[params.block.item]]
+      icon = "fas fa-people-carry"
+      title = "Hands on mentality."
+
+    [[params.block.item]]
+      icon = "fas fa-user-tie"
+      title = "Suits."
+
+    [[params.block.item]]
+      icon = "fas fa-coffee"
+      title = "Coffee makes the world go round."
+
+    [[params.block.item]]
+      icon = "fab fa-bluetooth-b"
+      title = "Everything is better with Bluetooth."
+
+# skill section
+  [[params.block]]
+    id = "skills3"
+    type = "list"
+    title = "So, what do you do if you do not business?"
+    description = ""
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+
+    [[params.block.item]]
+      icon = "fas fa-vr-cardboard"
+      title = "Ask me about VR."
+
+    [[params.block.item]]
+      icon = "fas fa-dice-d20"
+      title = "Let's play some games."
+
+    [[params.block.item]]
+      icon = "fab fa-spotify"
+      title = "Music is the best."
+
+    [[params.block.item]]
+      icon = "fas fa-code"
+      title = "Ask me about Ludum Dare."
+
+    [[params.block.item]]
+      icon = "fab fa-galactic-republic"
+      title = "Imperium > Rebels."
+      
+      [[params.block.item]]
+      icon = "fas fa-beer"
+      title = "Beer tasting"
+      
+
+  # infos section
+  [[params.block]]
+    id = "infos"
+    type = "text"
+    title = "One more thing"
+    description = "When the Silicon Valley Challenge rolled out, you were asking for creative applications. This is probably not the most creative one you got - and certainly not the most descriptive. Nontheless, I am throwing my hat in. Because I think, that I can be a valuable member of a diverse project team. Setting out into the Silicon Valley with my colleagues, getting absorbed in the culture and coming back with a business idea - let's do it. Now and together."
+    # the picture is stored at static/images/
+    picture = "pic03.jpg"
+
+#  # custom section
+#  [[params.block]]
+#    id = "important"
+#    # to make custom section copy <theme>/layouts/partials/text.html to /layouts/partials/custom.html and edit it according to your needs.
+#    type = "custom"
+#    title = "Don't forget"
+#    description = "Curabitur massa ante, semper at massa et, semper pellentesque velit. Duis tempor est nisi, a gravida risus malesuada eget. Nunc rutrum arcu laoreet mauris sodales vehicula. Nunc iaculis felis ac dui egestas, vel ullamcorper tellus bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia sem porttitor, fringilla metus at, convallis quam. Integer convallis a justo non pellentesque."
+#    # the picture is stored at static/images/
+#    picture = "pic04.jpg"
+
+
+  # footer section
+  # this section includes last block and social icons
+
+  [params.footer]
+    enable = true
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+
+      [[params.footer.social]]
+        title = "LinkedIn"
+        icon = "fab fa-linkedin"
+        link = "https://www.linkedin.com/in/patrickschreck/"
+
+      [[params.footer.social]]
+        title = "Xing"
+        icon = "fab fa-xing"
+        link = "https://www.xing.com/profile/Patrick_Schreck4/"
+
+      [[params.footer.social]]
+        title = "Instagramm"
+        icon = "fab fa-instagram"
+        link = "https://www.instagram.com/xatulu/"
+
+      [[params.footer.social]]
+        title = "Untappd"
+        icon = "fab fa-untappd"
+        link = "https://untappd.com/user/Xatulu"
+
+      [[params.footer.social]]
+        title = "Email"
+        icon = "fas fa-envelope"
+        link = "mailto://patrick.schreck@wacker.com"
+
+    # copyright
+    #[params.footer.copyright.notice]
+
+      [[params.footer.copyright.notice]]
+        text = "© Patrick Schreck"
+
+      [[params.footer.copyright.notice]]
+        text = "Design: [HTML5UP](//html5up.net)"
