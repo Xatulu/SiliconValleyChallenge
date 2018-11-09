@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://xatulu.github.io"
+baseurl = "https://xatulu.github.io/"
 languageCode = "en-us"
 title = "Patrick Schreck - Silicon Valley Challenge Application"
 theme = "hugo-highlights-theme"
